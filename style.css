@@ -1,0 +1,222 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+/* main navigation bar */
+.navbar{
+    background-color: black;
+    height: 60px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100vw;
+}
+
+/* navigation logo */
+.nav-logo{
+    width: 150px;
+    height: 50px;
+}
+.logo{
+    background: url(https://www.thesun.co.uk/wp-content/uploads/2022/02/Amazon-Logo-1024x426-1.png);
+    background-size: cover;
+    height: 50px;
+    width: 100%;
+
+}
+  /* box-1 */
+.add-first{
+    font-size: 0.8rem;
+    margin-left: 12px;
+
+}
+.add-icon{
+    display: flex;
+
+}
+.add-sec{
+    font-size: 1rem;
+    font-weight: bold;
+}
+ .border{
+    border: 1.5px solid transparent;
+ }
+.border:hover{
+    border: 1.5px solid rgba(255, 255, 255, 0.959);
+}
+ /* box-2 */
+ .nav-search{
+    border: none;
+    height: 40px;
+    display: flex;
+    width: 630px;
+    background-color: rgb(219, 182, 16);
+    justify-content: space-evenly;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+    
+ }
+ .nav-select{
+    border: none;
+    width: 40px;
+    
+
+ }
+
+ .nav-input{
+    border: none;
+    width: 100%;
+   font-size: 18px;
+
+
+ }
+ .nav-icon{
+    width: 45px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: black;
+
+
+
+ }
+
+ /* box-3 */
+ .nav-signin span{
+    font-size: 0.8rem;
+ }
+.nav-signin p{
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+
+.nav-return span{
+    font-size: 0.85rem;
+
+}
+.nav-return p{
+    font-weight: bold;
+}
+.nav-cart i { 
+font-size: 32px;
+}
+
+/* after the navigation bar we have panel */
+
+.panel{
+    background-color: #232f3e;
+    height: 30px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100vw;
+
+}
+.panel img{
+    width: 40px;
+    height: 30px;
+}
+
+/* this is the main section of our website */
+.main-section{
+    background-image:url(images/Header_PC_Unrec.jpg);
+    height: 400px;
+    width: 100vw;
+    background-size: cover;
+    max-height:100% ;
+}
+.main-section img{
+    margin-bottom: 20px;
+    height: 50px;
+
+}
+/* card-offer */
+.card-discount img{
+    width: 100vw;
+}
+
+/* free-trial-image */
+.free-trial-img img{
+    width: 100vw;
+}
+/* shopping boxes */
+
+.shop-section{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+
+}
+.box{
+    /* border: 2px solid black; */
+    height: 400px;
+    width: 23%;
+    padding: 20px 0px 15px;
+    margin: 8px;
+
+}
+.box-img{
+    background-size: cover;
+    height: 350px;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    
+    
+}
+.box-content{
+    padding-left: 1rem ;
+    padding-right: 1rem; 
+}
+
+.box-content p{
+    color: #007185;
+}
+
+/* Footer Section */
+.last-section{
+    margin-top: 40px;
+    background-color: #232f3e;
+    color: white;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 450px;
+    /* border: 2px solid white; */
+}
+.system{
+    margin-top: 100px;
+    height: 380px;
+}
+.system p {
+    padding: 4px;
+    font-size: 0.9rem;
+}
+.system h2{
+    font-size: 1.2rem;
+}
+
+.footer-last{
+    background-color: #232f3e;
+    color: white;
+    display: flex;
+    width: 100vw;
+    justify-content: space-evenly;
+}
+.english{
+    border: 1px solid white;
+    width: 100px;
+    display: flex;
+    justify-content: center;
+    margin-top: 9px;
+
+
+}
+.english p{
+    margin-left: 4px;
+}
+
+
+
